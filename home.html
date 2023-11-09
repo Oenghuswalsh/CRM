@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HOME</title>
-    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
     <link
       rel="stylesheet"
       href="http://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
     />
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-    <script defer src="./JavaScript/script.js"></script>
+    <script defer src="JavaScript/script.js"></script>
     <!-- The script.js file contains the custom JavaScript I worte for this CRM website -->
   </head>
   <body>
@@ -33,7 +33,7 @@
           <h2 class="userName" id="logInName"></h2>
           <img
             class="avatarImg"
-            src="./Icons/user-96.png"
+            src="Icons/user-96.png"
             alt="Icon image of a user"
           />
         </div>
@@ -45,38 +45,38 @@
       <!-- Mouse hover tooltip displays for Home, Staff, Projects menu items-->
       <!-- Icons sourced form icons8.com-->
       <nav class="sideBar">
-        <a href="./home.html" class="home"
+        <a a href="home.html" class="home"
           ><img
             title="Return to the dashboard"
-            src="./Icons/home-32.png"
+            src="Icons/home-32.png"
             alt="Home page icon"
           /><span class="label">HOME</span></a
         >
-        <a href="./staff.html" class="staff"
+        <a a href="staff.html" class="staff"
           ><img
             title="View staff database and perform add and edit actions."
-            src="./Icons/customers-32.png"
+            src="Icons/customers-32.png"
             alt="Customer icon"
           /><span class="label">STAFF</span></a
         >
-        <a href="./projects.html" class="projects"
+        <a a href="projects.html" class="projects"
           ><img
             title="View current project statuses and rearrange priorities."
-            src="./Icons/folder-32.png"
+            src="Icons/folder-32.png"
             alt="Folder icon"
           /><span class="label">PROJECTS</span></a
         >
-        <a href="./about.html" class="about"
+        <a a href="about.html" class="about"
           ><img
             title="Read more about this CRM"
-            src="./Icons/info-32.png"
+            src="Icons/info-32.png"
             alt="About page icon"
           /><span class="label">ABOUT</span></a
         >
-        <a href="./contact.html" class="contact"
+        <a a href="contact.html" class="contact"
           ><img
             title="Message us if you require assistance using this CRM"
-            src="./Icons/message-32.png"
+            src="Icons/message-32.png"
             alt="Contact page icon"
           /><span class="label">CONTACT</span></a
         >
@@ -99,25 +99,31 @@
             <!--The Dashboard div contains the customizable CRM elements-->
             <!--On this login page the staff card and Project card are blank images with herf links to the CRM content.-->
             <!--The staff card-->
-            <div class="homePortlet">
+            <div
+              title="Click & hold header to reposition this Tab"
+              class="homePortlet"
+            >
               <nav class="card cardH2">
-                <a href="./staff.html" class="staff">
+                <a a href="staff.html" class="staff">
                   <h2 class="portlet-header">Staff</h2>
                 </a>
                 <img
-                  src="./images/Staff-Dashboard.png"
+                  src="images/Staff-Dashboard.png"
                   alt="An image of an accordion style menu"
                 />
               </nav>
             </div>
             <!--The Products card-->
-            <div class="homePortlet">
+            <div
+              title="Click & hold header to reposition this Tab"
+              class="homePortlet"
+            >
               <nav class="card cardH2">
-                <a href="./projects.html" class="projects">
+                <a a href="projects.html" class="projects">
                   <h2 class="portlet-header">Projects</h2>
                 </a>
                 <img
-                  src="./images/Projects-Dashboard.png"
+                  src="images/Projects-Dashboard.png"
                   alt="An image of an accordion style menu"
                 />
               </nav>
@@ -131,29 +137,33 @@
       <div class="pageFooter">
         <div class="footerNav">
           <nav>
-            <a href="./home.html" class="home" title="Return to the dashboard"
+            <a a href="home.html" class="home" title="Return to the dashboard"
               >Home</a
             >
             <a
-              href="./staff.html"
+              a
+              href="staff.html"
               class="staff"
               title="View staff database and perform add and edit actions."
               >Staff</a
             >
             <a
-              href="./projects.html"
+              a
+              href="projects.html"
               class="projects"
               title="View current project statuses and rearrange priorities."
               >Projects</a
             >
             <a
-              href="./about.html"
+              a
+              href="about.html"
               class="about"
               title="Read more about this CRM"
               >About</a
             >
             <a
-              href="./contact.html"
+              a
+              href="contact.html"
               class="contact"
               title="Message us if you require assistance using this CRM"
               >Contact</a

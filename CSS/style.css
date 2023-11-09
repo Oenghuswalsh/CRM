@@ -194,6 +194,7 @@ h2 {
 .column.dashboard h2:hover {
   background-color: #9747ff;
   border: 2px solid #9747ff;
+  cursor: move;
 }
 .column.dashboard img {
   height: 400px;
@@ -288,6 +289,7 @@ h2.bodyMessage {
 .dashboards #accordion .group {
   height: auto !important;
 }
+
 .cardH2 h2 {
   background-color: #0066ff;
   color: white;
@@ -343,6 +345,9 @@ footer nav a {
   padding: 0.3em;
   display: inline-block;
   width: 600px;
+}
+.ui-accordion .ui-accordion-header:hover {
+  cursor: s-resize;
 }
 .homePortlet {
   margin: 0.3em;

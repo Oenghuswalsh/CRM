@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CRM Project Page</title>
-    <link rel="stylesheet" href="./CSS/style.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
     <link
       rel="stylesheet"
       href="http://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
     />
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-    <script defer src="./JavaScript/script.js"></script>
+    <script defer src="JavaScript/script.js"></script>
     <!-- The script.js file contains the custom JavaScript I worte for this CRM website -->
   </head>
   <body>
@@ -33,7 +33,7 @@
           <h2 class="userName" id="logInName"></h2>
           <img
             class="avatarImg"
-            src="./Icons/user-96.png"
+            src="Icons/user-96.png"
             alt="Icon image of a user"
           />
         </div>
@@ -45,38 +45,38 @@
       <!-- Mouse hover tooltip displays for Home, Staff, Projects menu items-->
       <!-- Icons sourced form icons8.com-->
       <nav class="sideBar">
-        <a href="./home.html" class="home"
+        <a a href="home.html" class="home"
           ><img
             title="Return to the dashboard"
-            src="./Icons/home-32.png"
+            src="Icons/home-32.png"
             alt="Home page icon"
           /><span class="label">HOME</span></a
         >
-        <a href="./staff.html" class="staff"
+        <a a href="staff.html" class="staff"
           ><img
             title="View staff database and perform add and edit actions."
-            src="./Icons/customers-32.png"
+            src="Icons/customers-32.png"
             alt="Customer icon"
           /><span class="label">STAFF</span></a
         >
-        <a href="./projects.html" class="projects"
+        <a a href="projects.html" class="projects"
           ><img
             title="View current project statuses and rearrange priorities."
-            src="./Icons/folder-32.png"
+            src="Icons/folder-32.png"
             alt="Folder icon"
           /><span class="label">PROJECTS</span></a
         >
-        <a href="./about.html" class="about"
+        <a a href="about.html" class="about"
           ><img
             title="Read more about this CRM"
-            src="./Icons/info-32.png"
+            src="Icons/info-32.png"
             alt="About page icon"
           /><span class="label">ABOUT</span></a
         >
-        <a href="./contact.html" class="contact"
+        <a a href="contact.html" class="contact"
           ><img
             title="Message us if you require assistance using this CRM"
-            src="./Icons/message-32.png"
+            src="Icons/message-32.png"
             alt="Contact page icon"
           /><span class="label">CONTACT</span></a
         >
@@ -103,7 +103,11 @@
               <h2 class="portlet-header">Projects</h2>
               <div class="card" id="accordion">
                 <div class="group">
-                  <h3>Wealth Builder</h3>
+                  <h3
+                    title="Click and hold on any Tab and drag to rearange the order. Click to expand tabs"
+                  >
+                    Wealth Builder
+                  </h3>
                   <div>
                     <p>
                       A project aimed at helping clients build long-term wealth
@@ -115,7 +119,11 @@
                   </div>
                 </div>
                 <div class="group">
-                  <h3>Sustainable Investments</h3>
+                  <h3
+                    title="Click and hold on any Tab and drag to rearange the order. Click to expand tabs"
+                  >
+                    Sustainable Investments
+                  </h3>
                   <div>
                     <p>
                       This project focuses on investing in companies that
@@ -127,7 +135,11 @@
                   </div>
                 </div>
                 <div class="group">
-                  <h3>Retirement Planning</h3>
+                  <h3
+                    title="Click and hold on any Tab and drag to rearange the order. Click to expand tabs"
+                  >
+                    Retirement Planning
+                  </h3>
                   <div>
                     <p>
                       Our retirement planning project is designed to help
@@ -139,7 +151,11 @@
                   </div>
                 </div>
                 <div class="group">
-                  <h3>Debt Reduction</h3>
+                  <h3
+                    title="Click and hold on any Tab and drag to rearange the order. Click to expand tabs"
+                  >
+                    Debt Reduction
+                  </h3>
                   <div>
                     <p>
                       This project is focused on helping clients reduce their
@@ -151,7 +167,11 @@
                   </div>
                 </div>
                 <div class="group">
-                  <h3>Real Estate Investing</h3>
+                  <h3
+                    title="Click and hold on any Tab and drag to rearange the order. Click to expand tabs"
+                  >
+                    Real Estate Investing
+                  </h3>
                   <div>
                     <p>
                       Our real estate investing project is aimed at helping
@@ -174,29 +194,33 @@
       <div class="pageFooter">
         <div class="footerNav">
           <nav>
-            <a href="./home.html" class="home" title="Return to the dashboard"
+            <a a href="home.html" class="home" title="Return to the dashboard"
               >Home</a
             >
             <a
-              href="./staff.html"
+              a
+              href="staff.html"
               class="staff"
               title="View staff database and perform add and edit actions."
               >Staff</a
             >
             <a
-              href="./projects.html"
+              a
+              href="projects.html"
               class="projects"
               title="View current project statuses and rearrange priorities."
               >Projects</a
             >
             <a
-              href="./about.html"
+              a
+              href="about.html"
               class="about"
               title="Read more about this CRM"
               >About</a
             >
             <a
-              href="./contact.html"
+              a
+              href="contact.html"
               class="contact"
               title="Message us if you require assistance using this CRM"
               >Contact</a
