@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRM Contact Page</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <link
+      rel="stylesheet"
+      href="http://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script defer src="./JavaScript/script.js"></script>
+  </head>
+  <body>
+    <!-- The Header -->
+    <header>
+      <div class="pageHeader">
+        <div class="logoName">
+          <h1 class="logo">CRM</h1>
+          <h2 class="siteName">Customer Records Management</h2>
+        </div>
+        <div class="userAvatar">
+          <button id="loginButton" class="loginBtn loginBtnContainer">
+            Log in
+          </button>
+          <button id="logoutButton" class="loginBtn logoutBtnContainer">
+            Log out
+          </button>
+          <h2 class="userName" id="logInName"></h2>
+          <img
+            class="avatarImg"
+            src="./Icons/user-96.png"
+            alt="Icon image of a user"
+          />
+        </div>
+      </div>
+    </header>
+    <div class="mainBody">
+      <!-- Sidebar menu icons-->
+      <!-- herf="" navigation for all pages, span with class="label" to add the pop up icon name-->
+      <!-- Mouse hover tooltip displays for Home, Staff, Projects menu items-->
+      <!-- Icons sourced form icons8.com-->
+      <nav class="sideBar">
+        <a href="./home.html" class="home"
+          ><img
+            title="Return to the dashboard"
+            src="./Icons/home-32.png"
+            alt="Home page icon"
+          /><span class="label">HOME</span></a
+        >
+        <a href="./staff.html" class="staff"
+          ><img
+            title="View staff database and perform add and edit actions."
+            src="./Icons/customers-32.png"
+            alt="Customer icon"
+          /><span class="label">STAFF</span></a
+        >
+        <a href="./projects.html" class="projects"
+          ><img
+            title="View current project statuses and rearrange priorities."
+            src="./Icons/folder-32.png"
+            alt="Folder icon"
+          /><span class="label">PROJECTS</span></a
+        >
+        <a href="./about.html" class="about"
+          ><img
+            title="Read more about this CRM"
+            src="./Icons/info-32.png"
+            alt="About page icon"
+          /><span class="label">ABOUT</span></a
+        >
+        <a href="./contact.html" class="contact"
+          ><img
+            title="Message us if you require assistance using this CRM"
+            src="./Icons/message-32.png"
+            alt="Contact page icon"
+          /><span class="label">CONTACT</span></a
+        >
+      </nav>
+      <!-- Log in form -->
+      <!-- No login name or password are required as there is no authentication action in the back end-->
+      <div class="loginFormWrapper">
+        <form id="loginForm">
+          <label for="username">Username:</label>
+          <input type="text" id="username" name="username" required />
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" />
+          <button id="submit" onclick="loadHome()" type="button">Log in</button>
+        </form>
+      </div>
+      <div>
+        <div id="dashboardHeader">
+          <h1 class="logo">Dashboard</h1>
+          <!-- Contact form sourced from wdocs.com HTML form templates-->
+          <!-- Contact form does not submit to any location when submit button is clicked-->
+          <div class="main-block contactUs">
+            <form action="#">
+              <h1>Contact Us</h1>
+              <div class="info">
+                <input
+                  class="fname"
+                  type="text"
+                  name="name"
+                  placeholder="Name"
+                />
+                <input type="text" name="name" placeholder="Email" />
+                <input type="text" name="name" placeholder="Phone number" />
+              </div>
+              <p>Message</p>
+              <div>
+                <textarea
+                  rows="4"
+                  placeholder="Write your message here."
+                ></textarea>
+              </div>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- The Footer -->
+    <footer>
+      <div class="pageFooter">
+        <div class="footerNav">
+          <nav>
+            <a href="./home.html" class="home" title="Return to the dashboard"
+              >Home</a
+            >
+            <a
+              href="./staff.html"
+              class="staff"
+              title="View staff database and perform add and edit actions."
+              >Staff</a
+            >
+            <a
+              href="./projects.html"
+              class="projects"
+              title="View current project statuses and rearrange priorities."
+              >Projects</a
+            >
+            <a
+              href="./about.html"
+              class="about"
+              title="Read more about this CRM"
+              >About</a
+            >
+            <a
+              href="./contact.html"
+              class="contact"
+              title="Message us if you require assistance using this CRM"
+              >Contact</a
+            >
+          </nav>
+          <h4>&copy; Copyright Oenghus Walsh 2023</h4>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
