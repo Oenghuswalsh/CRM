@@ -278,6 +278,10 @@ h2.bodyMessage {
   width: 45%;
 }
 
+.projectsPara {
+  color: black;
+}
+
 .customerCard {
   display: flex;
   height: 100%;
