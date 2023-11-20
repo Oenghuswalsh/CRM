@@ -312,7 +312,7 @@ function displayUserData(employee) {
 
   const firstNameInput = document.createElement("input");
   firstNameInput.type = "text";
-  firstNameInput.style.marginLeft = "3em";
+  firstNameInput.style.marginLeft = "1em";
   firstNameInput.value = firstName;
   firstNameInput.disabled = true;
   userDataDiv.appendChild(firstNameInput);
@@ -325,7 +325,7 @@ function displayUserData(employee) {
 
   const lastNameInput = document.createElement("input");
   lastNameInput.type = "text";
-  lastNameInput.style.marginLeft = "3em";
+  lastNameInput.style.marginLeft = "1em";
   lastNameInput.value = lastName;
   lastNameInput.disabled = true;
   userDataDiv.appendChild(lastNameInput);
@@ -338,7 +338,7 @@ function displayUserData(employee) {
 
   const emailInput = document.createElement("input");
   emailInput.type = "email";
-  emailInput.style.marginLeft = "3em";
+  emailInput.style.marginLeft = "1em";
   emailInput.value = email;
   emailInput.disabled = true;
   userDataDiv.appendChild(emailInput);
@@ -351,7 +351,7 @@ function displayUserData(employee) {
 
   const phoneInput = document.createElement("input");
   phoneInput.type = "tel";
-  phoneInput.style.marginLeft = "3em";
+  phoneInput.style.marginLeft = "1em";
   phoneInput.value = phone;
   phoneInput.disabled = true;
   userDataDiv.appendChild(phoneInput);

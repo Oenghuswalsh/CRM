@@ -475,12 +475,34 @@ h2.about {
     padding: 5px;
   }
   .column.dashboard {
-    width: 290px;
+    width: 100%;
+    margin: 10px 0;
+  }
+  .homePortlet {
+    width: 90%;
   }
   .portlet {
-    width: 290px;
+    width: 100%;
+  }
+  .card {
+    width: 100%;
   }
   footer nav a {
     padding: 0 5px;
+  }
+  .cardH2 h2 {
+    font-size: 1.5em;
+  }
+  .card .ui-accordion .ui-accordion-content {
+    padding: 0;
+  }
+  select option {
+    font-size: 0.6em;
+  }
+  .ui-accordion-content label {
+    font-size: 0.8em;
+  }
+  .projectPortlet {
+    width: 90%;
   }
 }
