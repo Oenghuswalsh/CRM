@@ -356,7 +356,7 @@ footer nav a {
   margin: 0.3em;
   padding: 0.3em;
   display: inline-block;
-  width: 350px;
+  width: 290px;
 }
 .portlet-header {
   padding: 0.2em 0.3em;
@@ -370,7 +370,7 @@ footer nav a {
 .portlet-placeholder {
   border: 1px dotted black;
   margin: 0 1em 1em 0;
-  width: 450px;
+  width: 290px;
   height: 50px;
 }
 
@@ -443,4 +443,44 @@ h2.about {
 }
 .editBtn:hover {
   background-color: #9747ff;
+}
+@media screen and (max-width: 600px) {
+  .logo {
+    font-size: 2em;
+  }
+  .siteName {
+    font-size: 1em;
+  }
+  .userAvatar {
+    flex-direction: column;
+  }
+  .loginBtn {
+    font-size: 1em;
+  }
+  .loginBtn:hover {
+    font-size: 1em;
+  }
+  .avatarImg {
+    height: 50px;
+    width: 50px;
+  }
+  .loginFormWrapper {
+    width: 65%;
+    left: 25%;
+  }
+  .userName {
+    font-size: 1em;
+  }
+  .sideBar a {
+    padding: 5px;
+  }
+  .column.dashboard {
+    width: 290px;
+  }
+  .portlet {
+    width: 290px;
+  }
+  footer nav a {
+    padding: 0 5px;
+  }
 }
