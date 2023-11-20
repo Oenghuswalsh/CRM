@@ -478,11 +478,17 @@ h2.about {
     width: 100%;
     margin: 10px 0;
   }
+  .column.dashboard img {
+    height: 250px;
+  }
   .homePortlet {
     width: 90%;
   }
   .portlet {
     width: 100%;
+  }
+  .portlet-header {
+    margin-bottom: 0;
   }
   .card {
     width: 100%;
@@ -492,6 +498,7 @@ h2.about {
   }
   .cardH2 h2 {
     font-size: 1.5em;
+    padding: 0;
   }
   .card .ui-accordion .ui-accordion-content {
     padding: 0;
